@@ -1,0 +1,7 @@
+body {
+  background: #26262a url(../img/bg.jpg) no-repeat 50% 150px;
+  box-shadow: 0 2px 0 black;
+  min-height: 200px; }
+
+#main {
+  max-width: 940px; }
