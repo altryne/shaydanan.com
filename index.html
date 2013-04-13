@@ -1,38 +1,89 @@
 <!doctype html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width">
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        <link rel="stylesheet" href="css/bootstrap.css">
-        <link rel="stylesheet" href="css/responsive.css">  
-        <link rel="stylesheet" href="css/style.css">  
-        <!-- endbuild -->
-    </head>
-    <body>
-        <div id="main" class="container">
-            <div class="row">
-                <div class="span2">asfasf</div>
-                <div class="span4">as asf </div>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" ng-app="ShayApp"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="fonts/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- endbuild -->
+</head>
+<body>
+<div id="main" class="container" ng-controller="AppCtrl">
+    <nav class="row">
+        <div class="span8"><h2 id="logo" class="ir">Shay Danan</h2></div>
+        <div class="span4">
+            <ul>
+                <li><a href="#shots" class="active">shots</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="headline">
+        <h1>GRAPHIC DESIGN AND MORE</h1>
+    </div>
+    <div class="subtitle">
+        <h3>INTERACTION DESIGN / WEB DESIGN / USER INTERFACE / ICONS & ILLUSTRATION BY SHAY DANAN</h3>
+    </div>
+
+    <h3 class="sep" id="shots">Some Shots</h3>
+
+    <div class="shots row" when-scrolled="loadMore()">
+        <div class="shot span3" ng-repeat="shot in shots" data-ng-animate="'custom'" style="background-image:url({{shot.image_url}})" ng-click="goto(shot.url)">
+            <div class="shot_inner">
+                <div class="shot_title">{{shot.title}}</div>
+                    <div class="shot_plus"></div>
+                    <div class="shot_bottom">
+                        <div class="shot_year">{{shot.created_at.substr(0,4)}}</div>
+                        <div class="shot_likes">{{shot.likes_count}} likes</div>
+                        <div class="shot_rebounds">{{shot.views_count}} views</div>
+                    </div>
             </div>
         </div>
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s)}(document,'script'));
-        </script>
+        <div class="loader" ng-show="!canLoad" data-ng-animate="'fade'"><img src="img/ajax-loader.gif" alt=""/></div>
+    </div>
 
-        <!-- build:js scripts/main.js -->
-        <script src="components/jquery/jquery.js"></script>
-        <script src="components/angular/angular.js"></script>
-        <!-- endbuild -->
+
+    <h3 class="sep" id="about">About Me</h3>
+
+    <div class="row about">
+        <img class="avatar" src="/img/shay_danan_avatar.jpg" alt="Shay Danan"/>
+
+        <div class="map"></div>
+    </div>
+</div>
+<footer>
+    <h3 class="sep" id="contact">Contact</h3>
+    <ul class="social">
+        <li class="ir fb" title="Facebook"><a href="https://www.facebook.com/shay.danan2"></a></li>
+        <li class="ir tw" title="Twitter"><a href="http://twitter.com/shaysurfer"></a></li>
+        <li class="ir li" title="LinkedIn"><a href="http://www.linkedin.com/profile/view?id=180453179"></a></li>
+        <li class="ir db" title="Dribbble"><a href="http://dribbble.com/shayke/"></a></li>
+    </ul>
+    <div class="copy">&copy; ShayDananDesign <span>2012 All rights reserved</span></div>
+</footer>
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+<!--<script>-->
+<!--var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];-->
+<!--(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];-->
+<!--g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';-->
+<!--s.parentNode.insertBefore(g,s)}(document,'script'));-->
+<!--</script>-->
+
+<script src="js/angular.min.js"></script>
+<script src="js/shay.js"></script>
 </body>
 </html>
