@@ -16,7 +16,7 @@
     <meta property="og:url" content="http://shaydanan.com" />
     <meta property="og:site_name" content="Shay Danan personal portfolio" />
 
-    <title></title>
+    <title>Shay Danan - Portfolio</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
@@ -48,8 +48,8 @@
     <h3 class="sep" id="shots">Some Shots</h3>
 
     <div class="shots row" when-scrolled="loadMore()">
-        <div class="shot span3" ng-repeat="shot in shots" data-ng-animate="'custom'" style="background-image:url({{shot.image_url}})" ng-click="goto(shot.url)">
-            <div class="shot_inner">
+        <div class="shot span3" ng-repeat="shot in shots" data-ng-animate="'custom'" style="background-image:url({{shot.image_url}})">
+            <a class="shot_inner" href="{{shot.url}}" target="_blank">
                 <div class="shot_title">{{shot.title}}</div>
                     <div class="shot_plus"></div>
                     <div class="shot_bottom">
@@ -57,7 +57,7 @@
                         <div class="shot_likes">{{shot.likes_count}} likes</div>
                         <div class="shot_rebounds">{{shot.views_count}} views</div>
                     </div>
-            </div>
+            </a>
         </div>
         <div class="loader" ng-show="!canLoad" data-ng-animate="'fade'"><img src="img/ajax-loader.gif" alt=""/></div>
     </div>

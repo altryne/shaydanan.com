@@ -5,9 +5,7 @@ angular.module('ShayApp', ['scroll'])
         $scope.total_pages = 1;
         $scope.shots = [1, 2, 3, 4];
 
-        $scope.goto = function (url) {
-            location = url;
-        };
+
         $scope.loadMore = function () {
             if ($scope.page <= $scope.total_pages) {
                 $scope.getShots($scope.page + 1)
@@ -17,7 +15,7 @@ angular.module('ShayApp', ['scroll'])
         };
 
         $scope.getShots = function (page) {
-            $scope.canLoad = false;
+
             $http({
                 url: 'http://api.dribbble.com/players/shayke/shots',
                 method: 'jsonp',
