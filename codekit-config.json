@@ -176,18 +176,6 @@
       "initialSize" : 421855,
       "fileType" : 4096
     },
-    "\/sass\/_wells.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/_wells.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_wells.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/sass\/_responsive-navbar.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -197,6 +185,18 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/css\/_responsive-navbar.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/sass\/_wells.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/_wells.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_wells.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -323,18 +323,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/sass\/_dropdowns.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/_dropdowns.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_dropdowns.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/sass\/_navbar.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -347,6 +335,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/img\/bg.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/bg.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/bg.jpg",
+      "initialSize" : 267550,
+      "fileType" : 4096
+    },
     "\/img\/logo.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -358,16 +357,17 @@
       "initialSize" : 8608,
       "fileType" : 8192
     },
-    "\/img\/bg.jpg" : {
+    "\/sass\/_dropdowns.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/bg.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/bg.jpg",
-      "initialSize" : 267550,
-      "fileType" : 4096
+      "inputAbbreviatedPath" : "\/sass\/_dropdowns.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_dropdowns.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/css\/bootstrap.css" : {
       "ignoreWasSetByUser" : 0,
