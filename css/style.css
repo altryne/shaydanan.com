@@ -95,7 +95,7 @@ h3.sep {
   .shots .shot {
     height: 300px;
     border-radius: 3px;
-    background: #c6c1bb;
+    background: #45454d;
     margin-bottom: 20px;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.43), inset 0 1px rgba(255, 255, 255, 0.15);
     background-size: cover;
