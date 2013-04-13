@@ -49,7 +49,7 @@ angular.module('scroll', []).directive('whenScrolled', function () {
     return function (scope, elm, attr) {
         var raw = elm[0];
         angular.element(window).bind('scroll', function () {
-            var buffer = 100;
+            var buffer = -200;
 
             //if user skipped a lot, dont' load more shit
             if(((window.scrollY + window.outerHeight) - (raw.offsetHeight + raw.offsetTop + buffer)) > 400 ){
