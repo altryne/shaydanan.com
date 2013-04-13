@@ -5,13 +5,13 @@ angular.module('ShayApp', ['scroll'])
         $scope.total_pages = 1;
         $scope.shots = [1, 2, 3, 4];
 
-        $scope.goto = function(url){
+        $scope.goto = function (url) {
             location = url;
-        }
+        };
         $scope.loadMore = function () {
-            if($scope.page <= $scope.total_pages){
+            if ($scope.page <= $scope.total_pages) {
                 $scope.getShots($scope.page + 1)
-            }else{
+            } else {
                 console.log('nothing more to load, requested page is out of bounds');
             }
         };
@@ -30,19 +30,19 @@ angular.module('ShayApp', ['scroll'])
                 function (result) {
                     $scope.canLoad = true;
                     console.log(result);
-                    if($scope.page == 0){
+                    if ($scope.page == 0) {
                         $scope.shots = result.data.shots;
-                    }else{
+                    } else {
                         $scope.shots = $scope.shots.concat(result.data.shots);
                     }
                     $scope.page = result.data.page;
                     $scope.total_pages = result.data.pages;
                 }
             )
-        }
+        };
 
         $scope.getShots(1)
-    })
+    });
 
 
 angular.module('scroll', []).directive('whenScrolled', function () {
@@ -52,11 +52,7 @@ angular.module('scroll', []).directive('whenScrolled', function () {
             var buffer = -200;
 
             //if user skipped a lot, dont' load more shit
-            if(((window.scrollY + window.outerHeight) - (raw.offsetHeight + raw.offsetTop + buffer)) > 400 ){
-                scrolling = false;
-            }else{
-                scrolling = true;
-            }
+            scrolling = ((window.scrollY + window.outerHeight) - (raw.offsetHeight + raw.offsetTop + buffer)) <= 400;
             if (scrolling && scope.canLoad && window.scrollY + window.outerHeight > raw.offsetHeight + raw.offsetTop + buffer) {
                 scope.$apply(attr.whenScrolled);
             }
