@@ -15,7 +15,7 @@ angular.module('ShayApp', ['scroll'])
         };
 
         $scope.getShots = function (page) {
-
+            $scope.canLoad = false;
             $http({
                 url: 'http://api.dribbble.com/players/shayke/shots',
                 method: 'jsonp',
