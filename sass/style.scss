@@ -39,6 +39,7 @@ nav {
 	ul {
 		list-style: none;
 		padding-top: 25px;
+		padding-left : 65px;
 		li {
 			float: left;
 			text-transform: uppercase;
@@ -280,4 +281,8 @@ h3.sep{
 	.map{
 		height: 250px;
 	}
+}
+
+#get_more{
+	background: url(../img/moar.png) no-repeat 50% 50%;
 }

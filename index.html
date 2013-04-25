@@ -20,6 +20,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.png"/>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="fonts/fonts.css">
@@ -47,7 +48,7 @@
 
     <h3 class="sep" id="shots">Some Shots</h3>
 
-    <div class="shots row" when-scrolled="loadMore()">
+    <div class="shots row">
         <div class="shot span3" ng-repeat="shot in shots" data-ng-animate="'custom'" style="background-image:url({{shot.image_url}})">
             <a class="shot_inner" href="{{shot.url}}" target="_blank">
                 <div class="shot_title">{{shot.title}}</div>
@@ -59,7 +60,9 @@
                     </div>
             </a>
         </div>
-        <div class="loader" ng-show="!canLoad" data-ng-animate="'fade'"><img src="img/ajax-loader.gif" alt=""/></div>
+        <div id="get_more" class="shot span3" ng-click="getNextPage()">
+        </div>
+        <!--<div class="loader" ng-show="!canLoad" data-ng-animate="'fade'"><img src="img/ajax-loader.gif" alt=""/></div>-->
     </div>
 
 

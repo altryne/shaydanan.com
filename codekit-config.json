@@ -176,18 +176,6 @@
       "initialSize" : 421855,
       "fileType" : 4096
     },
-    "\/sass\/_responsive-navbar.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/_responsive-navbar.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_responsive-navbar.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/sass\/_wells.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -197,6 +185,18 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/css\/_wells.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/sass\/_responsive-navbar.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/_responsive-navbar.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_responsive-navbar.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -254,6 +254,17 @@
       "outputAbbreviatedPath" : "\/css\/_responsive-767px-max.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/img\/moar.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/moar.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/moar.png",
+      "initialSize" : 4164,
+      "fileType" : 8192
     },
     "\/sass\/_navs.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -323,6 +334,18 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/sass\/_dropdowns.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/_dropdowns.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_dropdowns.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
     "\/sass\/_navbar.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -335,17 +358,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/img\/bg.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/bg.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/bg.jpg",
-      "initialSize" : 267550,
-      "fileType" : 4096
-    },
     "\/img\/logo.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -357,17 +369,16 @@
       "initialSize" : 8608,
       "fileType" : 8192
     },
-    "\/sass\/_dropdowns.scss" : {
+    "\/img\/bg.jpg" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/_dropdowns.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_dropdowns.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/img\/bg.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/bg.jpg",
+      "initialSize" : 267550,
+      "fileType" : 4096
     },
     "\/css\/bootstrap.css" : {
       "ignoreWasSetByUser" : 0,
@@ -390,17 +401,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/img\/social_icons.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/social_icons.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/social_icons.png",
-      "initialSize" : 3381,
-      "fileType" : 8192
-    },
     "\/sass\/_modals.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -412,6 +412,17 @@
       "outputAbbreviatedPath" : "\/css\/_modals.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/img\/social_icons.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/social_icons.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/social_icons.png",
+      "initialSize" : 3381,
+      "fileType" : 8192
     },
     "\/sass\/_reset.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -484,6 +495,17 @@
       "outputAbbreviatedPath" : "\/css\/_grid.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/favicon.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/favicon.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/favicon.png",
+      "initialSize" : 3533,
+      "fileType" : 8192
     },
     "\/sass\/_utilities.scss" : {
       "ignoreWasSetByUser" : 0,

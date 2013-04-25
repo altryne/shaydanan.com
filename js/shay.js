@@ -1,9 +1,9 @@
-angular.module('ShayApp', ['scroll'])
+angular.module('ShayApp', [])
 
     .controller('AppCtrl', function ($scope, $http) {
         $scope.page = 0;
         $scope.total_pages = 1;
-        $scope.shots = [1, 2, 3, 4];
+        $scope.shots = [1, 2, 3];
 
 
         $scope.loadMore = function () {
@@ -13,21 +13,25 @@ angular.module('ShayApp', ['scroll'])
                 console.log('nothing more to load, requested page is out of bounds');
             }
         };
+        $scope.getNextPage = function(){
+            $scope.page += 1;
+            $scope.getShots($scope.page)
+        }
 
-        $scope.getShots = function (page) {
+        $scope.getShots = function (page,per_page) {
+            per_page = per_page || 4
             $scope.canLoad = false;
             $http({
                 url: 'http://api.dribbble.com/players/shayke/shots',
                 method: 'jsonp',
                 params: {
                     callback: 'JSON_CALLBACK',
-                    per_page: 4,
+                    per_page: per_page,
                     page: page || 1
                 }
             }).then(
                 function (result) {
                     $scope.canLoad = true;
-                    console.log(result);
                     if ($scope.page == 0) {
                         $scope.shots = result.data.shots;
                     } else {
@@ -39,21 +43,24 @@ angular.module('ShayApp', ['scroll'])
             )
         };
 
-        $scope.getShots(1)
+        $scope.getShots(1,11)
     });
 
 
-angular.module('scroll', []).directive('whenScrolled', function () {
-    return function (scope, elm, attr) {
-        var raw = elm[0];
-        angular.element(window).bind('scroll', function () {
-            var buffer = -200;
-
-            //if user skipped a lot, dont' load more shit
-            scrolling = ((window.scrollY + window.outerHeight) - (raw.offsetHeight + raw.offsetTop + buffer)) <= 400;
-            if (scrolling && scope.canLoad && window.scrollY + window.outerHeight > raw.offsetHeight + raw.offsetTop + buffer) {
-                scope.$apply(attr.whenScrolled);
-            }
-        });
-    };
-});
+//angular.module('scroll', []).directive('whenScrolled', function () {
+//    return function (scope, elm, attr) {
+//        var raw = elm[0];
+//        angular.element(window).bind('scroll', function () {
+//            var buffer = -200;
+//            //if user skipped a lot, dont' load more shit
+//            scrolling = ((window.scrollY + window.outerHeight) - (raw.offsetHeight + raw.offsetTop + buffer)) <= 400;
+//            if (scrolling && scope.canLoad && window.scrollY + window.outerHeight > raw.offsetHeight + raw.offsetTop + buffer) {
+//                if(scope.page > 2){
+//                    angular.element(window).unbind('scroll');
+//                }else{
+//                    scope.$apply(attr.whenScrolled);
+//                }
+//            }
+//        });
+//    };
+//});
