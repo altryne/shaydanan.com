@@ -31,6 +31,10 @@ nav {
   height: 90px;
   font-family: allerbold; }
   nav ul {
+    -webkit-transition: all 250ms ease;
+    -moz-transition: all 250ms ease;
+    -ms-transition: all 250ms ease;
+    transition: all 250ms ease;
     list-style: none;
     padding-top: 25px;
     padding-left: 65px; }
@@ -55,7 +59,11 @@ nav {
   padding-top: 270px;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
   height: 198px;
-  line-height: 60px; }
+  line-height: 60px;
+  -webkit-transition: all 250ms ease;
+  -moz-transition: all 250ms ease;
+  -ms-transition: all 250ms ease;
+  transition: all 250ms ease; }
 
 .subtitle h3 {
   font-family: aller;

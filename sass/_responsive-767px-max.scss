@@ -5,6 +5,15 @@
 
 @media (max-width: 767px) {
 
+	.headline h1{
+		padding-top:220px !important;
+		padding-bottom:120px
+	}
+	#menu{
+		position: absolute;
+		top:5px;
+		right:20px;
+	}
   // Padding to set content in a bit
   body {
     padding-left: 20px;
@@ -111,6 +120,7 @@
     &.fade.in { top: 20px; }
   }
 
+
 }
 
 
@@ -119,6 +129,11 @@
 // ---------------------
 
 @media (max-width: 480px) {
+
+	.headline h1{
+			padding-top:160px !important;
+			padding-bottom:110px
+		}
 
   // Smooth out the collapsing/expanding nav
   .nav-collapse {

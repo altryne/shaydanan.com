@@ -37,6 +37,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/components\/jquery\/jquery-migrate.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/components\/jquery\/jquery-migrate.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/components\/jquery\/jquery-migrate.min-ck.js",
+      "fileType" : 64
+    },
     "\/sass\/_popovers.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -290,6 +301,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/components\/jquery\/jquery.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/components\/jquery\/jquery.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/components\/jquery\/jquery-ck.js",
+      "fileType" : 64
+    },
     "\/sass\/_tooltip.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -423,6 +445,17 @@
       "outputAbbreviatedPath" : "\/img\/social_icons.png",
       "initialSize" : 3381,
       "fileType" : 8192
+    },
+    "\/components\/jquery\/jquery.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/components\/jquery\/jquery.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/components\/jquery\/jquery.min-ck.js",
+      "fileType" : 64
     },
     "\/sass\/_reset.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -565,6 +598,17 @@
       "outputAbbreviatedPath" : "\/css\/_code.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/components\/jquery\/jquery-migrate.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/components\/jquery\/jquery-migrate.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/components\/jquery\/jquery-migrate-ck.js",
+      "fileType" : 64
     },
     "\/sass\/_tables.scss" : {
       "ignoreWasSetByUser" : 0,

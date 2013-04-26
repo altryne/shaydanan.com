@@ -1,6 +1,15 @@
 angular.module('ShayApp', [])
 
     .controller('AppCtrl', function ($scope, $http) {
+
+        $("#menu a").on('click',function(e){
+            e.preventDefault();
+            $('html, body').animate({
+                scrollTop: $($(this).attr('href')).offset().top
+            }, 1000);
+        })
+
+
         $scope.page = 0;
         $scope.total_pages = 1;
         $scope.shots = [1, 2, 3];
