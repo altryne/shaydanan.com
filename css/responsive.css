@@ -382,7 +382,8 @@
 @media (max-width: 767px) {
   .headline h1 {
     padding-top: 220px !important;
-    padding-bottom: 120px; }
+    padding-bottom: 120px;
+    font-size: 65px; }
 
   #menu {
     position: absolute;
