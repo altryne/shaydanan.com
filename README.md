@@ -1,2 +1,2 @@
-shaydanan.com
+shaydanan.org
 =============
