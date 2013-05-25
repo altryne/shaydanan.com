@@ -8,11 +8,11 @@
 
 body {
   background: #26262a url(../img/bg.jpg) no-repeat 50% 90px;
-  box-shadow: 0 2px 0 black;
+  box-shadow: 0 2px 0 #000;
   min-height: 200px;
   border-top: 5px solid #ff9671;
-  box-shadow: inset 0px 1px 0 black;
-  font-family: "aller", helvetica, arial;
+  box-shadow: inset 0px 1px 0 #000;
+  font-family: 'aller', helvetica, arial;
   font-size: 14px;
   line-height: 1.5em;
   color: #817775; }
