@@ -25,6 +25,17 @@
       "initialSize" : 14934,
       "fileType" : 4096
     },
+    "\/components\/jquery\/jquery-migrate.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/components\/jquery\/jquery-migrate.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/components\/jquery\/jquery-migrate.min-ck.js",
+      "fileType" : 64
+    },
     "\/sass\/_pager.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -36,17 +47,6 @@
       "outputAbbreviatedPath" : "\/css\/_pager.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/components\/jquery\/jquery-migrate.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/components\/jquery\/jquery-migrate.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/components\/jquery\/jquery-migrate.min-ck.js",
-      "fileType" : 64
     },
     "\/sass\/_popovers.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -176,17 +176,16 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/sass\/_wells.scss" : {
+    "\/img\/reference.jpg" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/_wells.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_wells.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/img\/reference.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/reference.jpg",
+      "initialSize" : 421855,
+      "fileType" : 4096
     },
     "\/sass\/_responsive-navbar.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -197,6 +196,18 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/css\/_responsive-navbar.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/sass\/_wells.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/_wells.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_wells.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -301,6 +312,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/js\/example.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/example.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/example-ck.js",
+      "fileType" : 64
+    },
     "\/components\/jquery\/jquery.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -368,16 +390,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/img\/bg.jpg" : {
+    "\/sass\/_navbar.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/bg.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/bg.jpg",
-      "initialSize" : 267550,
-      "fileType" : 4096
+      "inputAbbreviatedPath" : "\/sass\/_navbar.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_navbar.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/img\/logo.png" : {
       "ignoreWasSetByUser" : 0,
@@ -390,17 +413,16 @@
       "initialSize" : 8608,
       "fileType" : 8192
     },
-    "\/sass\/_navbar.scss" : {
+    "\/img\/bg.jpg" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/_navbar.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_navbar.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/img\/bg.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/bg.jpg",
+      "initialSize" : 267550,
+      "fileType" : 4096
     },
     "\/css\/bootstrap.css" : {
       "ignoreWasSetByUser" : 0,
@@ -423,6 +445,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/img\/social_icons.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/social_icons.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/social_icons.png",
+      "initialSize" : 3381,
+      "fileType" : 8192
+    },
     "\/sass\/_modals.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -434,17 +467,6 @@
       "outputAbbreviatedPath" : "\/css\/_modals.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/img\/social_icons.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/social_icons.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/social_icons.png",
-      "initialSize" : 3381,
-      "fileType" : 8192
     },
     "\/components\/jquery\/jquery.min.js" : {
       "ignoreWasSetByUser" : 0,
@@ -575,6 +597,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/js\/example-ck.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/example-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/example-ck-ck.js",
+      "fileType" : 64
+    },
     "\/sass\/bootstrap.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -669,6 +702,15 @@
       "outputAbbreviatedPath" : "\/css\/_responsive-utilities.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/example.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/example.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/sass\/_labels-badges.scss" : {
       "ignoreWasSetByUser" : 0,

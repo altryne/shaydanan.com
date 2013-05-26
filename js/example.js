@@ -28,7 +28,7 @@ switch(i){
 
 var some_html = 'div'; //html gets injected automatically
 
-var some_css = "div{background:green; margin-bottom: 5px;padding-top: 10px;}";
+var some_css = "div{background:green; margin-bottom: 5px; padding-top: 10px; } span{ background: green; margin-bottom: 15%;}";
 
 
 
@@ -46,6 +46,7 @@ function f(a) {
   }
   return false;
 }
+
 
 
 
@@ -77,4 +78,24 @@ function myMethod(Bool, string, obj) {
 }
 
 myMethod(false, "string", {person: "ironman"})
+
+
+
+/**
+ * This is a simple documentation example
+ * @param age {integer} - sets the age of the person
+ * @param name {string} - persons name
+ * @param job {string} - persons job description
+ * @returns {{age: *, name: *, job: *}}
+ */
+var myFunc = function (age, name, job) {
+    var person = {
+        age: age,
+        name: name,
+        job: job
+    };
+    return person
+};
+myFunc(age,name,job)
+
 
